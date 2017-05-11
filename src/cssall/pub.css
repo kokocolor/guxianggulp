@@ -1,0 +1,15 @@
+ul{
+	list-style: none;
+}
+.box ul li{
+    width:100px;
+    height:100px;
+
+
+} 
+.box ul li{
+  color: #444;
+  background: url("@{images}/1.jpg");
+  -webkit-animation:move 0.5s ease 0s;
+          animation:move 0.5s ease 0s; 
+}

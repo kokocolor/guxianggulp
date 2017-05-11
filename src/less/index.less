@@ -1,0 +1,48 @@
+html,body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#c3c;
+    font-size:12px;
+    font-weight:bold;
+}
+
+a{
+    display:block;
+
+}
+ul{
+    list-style: none;
+
+}
+@images: "../img";
+
+.box ul li{
+    width:100px;
+    height:100px;
+
+
+} 
+.box ul li{
+  color: #444;
+  background: url("@{images}/1.jpg");
+  animation:move 0.5s ease 0s; 
+}
+
+
+@keyframes move {
+    from{
+         transform:rotate(0deg);
+         
+    } 
+    100% {
+        transform:rotate(45deg);
+        
+    }
+}
+
+
+
+
+
+
